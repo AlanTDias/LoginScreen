@@ -1,77 +1,93 @@
+ *{
+    margin: auto;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
 body {
     background: url(img/img.jpg);
+    background-size: cover;
     font-family: sans-serif,Verdana;
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+.container {
+    width: 350px;
+    padding: 50px 20px;
+    background: rgba(16, 16, 17, 0.281);
+    box-shadow: 1px 5px 15px rgba(2, 18, 39, 0.993);
+    
+
+}
+h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align:center ;
+    margin:30px;
+    
+}
+
+input{
+    width: 100%;
+    height:46px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #4392d3a6;
+    color:rgb(255, 255, 255);
+    
+}
+
+.input-data{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label{
+    position:absolute;
     top:0;
-    right: 0;
     left: 0;
-    margin: auto;
-    background-size:cover;
-    
-   
+    color:rgb(255, 255, 255);
+    transform: translateY(18px);
 }
 
-
-.corpotexto {
-    
-    position:relative;
-    max-width: 600px;
-    padding: 50px;
-    background: rgba(255, 255, 255, .2);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-
+button{
+    padding: 15px 50px;
+    margin: 20px;
+    cursor: pointer;
 
 }
 
-.corpotexto h2{
-    margin: 0 0 20px;
-    padding:0;
-    font-size: 48px;
-    text-transform: uppercase;
-          
-
-}
-
-.corpotexto p {
-    margin: 10px;
-    padding:10px;
-    font-size: 20px;
-   
-
-}
-
-.linkedin{
-    transition:all 500ms ease-in-out;
-    cursor:pointer;
-
-
-
-}
-
-.linkedin:hover{
-    opacity: 0.5;
-    
-
-}
-
-.github{
-    margin: 25px;
-    transition:all 500ms ease-in-out;
-    cursor:pointer;
-        
-
-
-
-}
-
-.github:hover{
-    opacity: 0.5;
-    transform: translatey(-1.2rem);
+.botao{
+    text-align:center;
     
     
+}
+
+.links{
+    text-align:center ;
+    color: white;
 
 }
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color:#000000
+}
+
+.color{
+    color: black;
+}
+
+
+
+
 
