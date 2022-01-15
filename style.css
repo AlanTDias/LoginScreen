@@ -1,0 +1,77 @@
+body {
+    background: url(img/img.jpg);
+    font-family: sans-serif,Verdana;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-size:cover;
+    
+   
+}
+
+
+.corpotexto {
+    
+    position:relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+
+}
+
+.corpotexto h2{
+    margin: 0 0 20px;
+    padding:0;
+    font-size: 48px;
+    text-transform: uppercase;
+          
+
+}
+
+.corpotexto p {
+    margin: 10px;
+    padding:10px;
+    font-size: 20px;
+   
+
+}
+
+.linkedin{
+    transition:all 500ms ease-in-out;
+    cursor:pointer;
+
+
+
+}
+
+.linkedin:hover{
+    opacity: 0.5;
+    
+
+}
+
+.github{
+    margin: 25px;
+    transition:all 500ms ease-in-out;
+    cursor:pointer;
+        
+
+
+
+}
+
+.github:hover{
+    opacity: 0.5;
+    transform: translatey(-1.2rem);
+    
+    
+
+}
+
