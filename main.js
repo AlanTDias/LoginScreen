@@ -1,3 +1,4 @@
 document.getElementById("clickMe").onclick = 
 function () {
-    alert('Usuário ou senha incorreto'); };
+    alert('Usuário ou senha incorreto')
+}
